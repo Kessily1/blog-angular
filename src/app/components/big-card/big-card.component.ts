@@ -12,6 +12,8 @@ export class BigCardComponent implements OnInit {
     CardTitle:String ="N"
     @Input()
     CardDescription:String =""
+    @Input()
+    id:String = "0"
   constructor() { }
 
   ngOnInit(): void {
